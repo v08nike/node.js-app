@@ -2,6 +2,6 @@ FROM node
 
 COPY /.  .
 RUN npm install
-EXPOSE 7070
+EXPOSE 8080
 
 CMD ["node","app.js"]
